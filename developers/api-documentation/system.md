@@ -22,13 +22,13 @@ system.exec("start cmd.exe")
 
 `system.shellexec(operation: string, file: string, parameters: string, directory: string, show: int)`
 
-| Name      | Type   |                      |
-| --------- | ------ | -------------------- |
-| operation | string | Action name          |
-| file      | string | Path                 |
-| params    | string | Additional parameter |
-| directory | string | Default path         |
-| show      | int    | Console visibility   |
+| Name          | Type       |                      |
+| ------------- | ---------- | -------------------- |
+| **operation** | **string** | Action name          |
+| **file**      | **string** | Path                 |
+| **params**    | **string** | Additional parameter |
+| **directory** | **string** | Default path         |
+| **show**      | **int**    | Console visibility   |
 
 This function is basically a ShellExecuteA for more information click [here](https://www.delftstack.com/howto/cpp/cpp-shellexecute/).
 

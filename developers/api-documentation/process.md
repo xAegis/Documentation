@@ -36,10 +36,10 @@ print.info(string.format("hProcess : %p", hProcess))
 
 `local moduleBase = process.getmodulebase(procID: int, name: string)`
 
-| Name       | Type    | Description  |
-| ---------- | ------- | ------------ |
-| **procID** | **int** | Process ID   |
-| name       | string  | Process Name |
+| Name       | Type       | Description  |
+| ---------- | ---------- | ------------ |
+| **procID** | **int**    | Process ID   |
+| **name**   | **string** | Process Name |
 
 ```lua
 local procID = process.getprocid("example.exe")
