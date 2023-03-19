@@ -14,9 +14,10 @@ description: 'Here''s how to use the system namespace :'
 | -------- | ---------- | ----------- |
 | **data** | **string** | Cmd Command |
 
-<pre class="language-lua"><code class="lang-lua">-> Usage
-<strong>system.exec("start cmd.exe")
-</strong></code></pre>
+```lua
+-> Usage
+system.exec("start cmd.exe")
+```
 
 ## `shellexec`
 
