@@ -5,24 +5,31 @@ description: 'A Basic Patcher example :'
 # 🔧 Basic Patcher
 
 ```lua
-local procID = process.getprocid("example.exe")
-
 print.wait("Waiting for the process !")
 
+local procID = process.getprocid("example.exe")
 repeat
     procID = process.getprocid("example.exe")
 until( procID > 0 )
 
 print.success("Process found !")
-
-print.info("procid : " .. procID)
+print.info("Process ID : " .. procID)
 
 local hProcess = process.gethprocess(procID)
 print.info(string.format("hProcess : %p", hProcess))
 
-local mainModule = process.getmodulebase(procID, "example.dll")
-print.info("MainModule : " .. mainModule)
+print.wait("Waiting for the module !")
 
-memory.patch(mainModule + 0x8c60, "\x65\x78\x61\x6D\x70\x6C\x65", 0x1f, hProcess)
-memory.nop(mainModule + 0x8c60, 0x5f, hProcess)
+local mainModule = process.getmodulebase(procID, "example.dll")
+repeat
+    mainModule = process.getmodulebase(procID, "example.dll")
+until( mainModule > 0 )
+
+print.success("Module found !")
+print.info("Module : " .. mainModule)
+
+system.delay(1)
+
+memory.patch(mainModule + 0x1337, "\x68\x65\x6C\x6C\x6F\x20\x75", 0x1337, hProcess)
+print.success("Auth Bypassed !")
 ```
