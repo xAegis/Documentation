@@ -17,4 +17,4 @@ local path = aegis.getpath();
 print.info(path)
 ```
 
-_This function is used to give you the path where aegis is._
+This function is used to give you the path where aegis is.
