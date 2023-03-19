@@ -43,11 +43,5 @@ local moduleBase = process.getmodulebase(procID, "example.dll")
 memory.nop(moduleBase + 0x8c60, 0x1f, hProcess)
 ```
 
-## inject
 
-`memory.inject(procID: int, file: string)`
 
-| Name       | Type    |            |
-| ---------- | ------- | ---------- |
-| **procID** | **int** | Process ID |
-| **file**   | **int** | DLL Path   |
