@@ -10,4 +10,11 @@ description: 'Here''s how to use the aegis namespace :'
 
 `local path = aegis.getpath()`
 
-_This function is used to give you the path where aegis is_
+### **Usage**_:_
+
+```lua
+local path = aegis.getpath();
+print.info(path)
+```
+
+_This function is used to give you the path where aegis is._
