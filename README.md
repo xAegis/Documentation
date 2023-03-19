@@ -4,6 +4,4 @@ description: >-
   to develop your script for Aegis. To program your scripts you will need to use
   the LUA language.
 ---
-
-# 💡 Introduction
-
+[Aegis Doc](https://aegis-1.gitbook.io/aegis-1/)
