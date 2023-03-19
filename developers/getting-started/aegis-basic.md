@@ -8,7 +8,7 @@ description: Information for aegis to work perfectly.
 
 The lua files must be in the Files folder that was created automatically at the root of Aegis.
 
-The api has included the following lua vanilla libraries: base, math, table, string.
+The api has included the following lua vanilla libraries: base, math, table, string, io.
 
 
 
