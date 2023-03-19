@@ -15,7 +15,7 @@ description: 'Here''s how to use the process namespace :'
 | **name** | **string** | Process Name |
 
 ```lua
-local procID = process.getprocid("test.exe")
+local procID = process.getprocid("example.exe")
 ```
 
 ## gethprocess
@@ -27,7 +27,7 @@ local procID = process.getprocid("test.exe")
 | **procID** | **int** | Process ID  |
 
 ```lua
-local procID = process.getprocid("test.exe")
+local procID = process.getprocid("example.exe")
 local hProcess = process.gethprocess(procID)
 print.info(string.format("hProcess : %p", hProcess))
 ```
@@ -42,6 +42,6 @@ print.info(string.format("hProcess : %p", hProcess))
 | name       | string  | Process Name |
 
 ```lua
-local procID = process.getprocid("gmod.exe")
-local moduleBase = process.getmodulebase(procID, "client.dll")
+local procID = process.getprocid("example.exe")
+local moduleBase = process.getmodulebase(procID, "example.dll")
 ```
