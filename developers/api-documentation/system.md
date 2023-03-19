@@ -15,7 +15,6 @@ description: 'Here''s how to use the system namespace :'
 | **data** | **string** | Cmd Command |
 
 ```lua
--> Usage
 system.exec("start cmd.exe")
 ```
 
@@ -34,7 +33,6 @@ system.exec("start cmd.exe")
 This function is basically a ShellExecuteA for more information click [here](https://www.delftstack.com/howto/cpp/cpp-shellexecute/).
 
 ```lua
---> Usage
 system.shellexec("open", "calc.exe", nil, nil, 1)
 ```
 
@@ -47,6 +45,5 @@ system.shellexec("open", "calc.exe", nil, nil, 1)
 | **time** | **int** | The time to wait in seconds |
 
 ```lua
---> Usage
 system.delay(3)
 ```

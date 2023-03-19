@@ -11,7 +11,6 @@ description: 'Here''s how to use the aegis namespace :'
 `local path = aegis.getpath()`
 
 ```lua
---> Usage
 local path = aegis.getpath();
 print.info(path)
 ```
