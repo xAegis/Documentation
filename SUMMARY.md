@@ -5,6 +5,7 @@
 ## 🤖 Developers
 
 * [🚩 Getting started](developers/getting-started/README.md)
+  * [📚 Aegis Basic](developers/getting-started/aegis-basic.md)
   * [🧑🏫 How to make a script](developers/getting-started/how-to-make-a-script.md)
   * [📕 Examples](developers/getting-started/examples/README.md)
     * [🔧 Basic Patcher](developers/getting-started/examples/basic-patcher.md)
