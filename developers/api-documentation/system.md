@@ -20,7 +20,7 @@ description: 'Here''s how to use the system namespace :'
 
 ## `shellexec`
 
-`system.shellexec(operation: string, file: string, parameters: string, directory: string, int: show)`
+`system.shellexec(operation: string, file: string, parameters: string, directory: string, show: int)`
 
 | Name      | Type   |                      |
 | --------- | ------ | -------------------- |
@@ -35,4 +35,17 @@ This function is basically a ShellExecuteA for more information click [here](htt
 ```lua
 --> Usage
 system.shellexec("open", "calc.exe", nil, nil, 1)
+```
+
+## delay
+
+`system.delay(time: int)`
+
+| Name     | Type    | Description                 |
+| -------- | ------- | --------------------------- |
+| **time** | **int** | The time to wait in seconds |
+
+```lua
+--> Usage
+system.delay(3)
 ```
