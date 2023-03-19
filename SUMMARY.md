@@ -1,6 +1,7 @@
 # Table of contents
 
-* [☎ Contact](README.md)
+* [🛡 Aegis](README.md)
+* [☎ Contact](contact.md)
 
 ## 🤖 Developers
 
