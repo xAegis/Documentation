@@ -1,4 +1,3 @@
-[Click Here](https://aegis-1.gitbook.io/aegis-1/)
 ---
 Aegis Doc: >-
   Welcome to the Aegis software documentation. This documentation will help you
