@@ -1,10 +1,13 @@
----
-Aegis Doc: >-
-  Welcome to the Aegis software documentation. This documentation will help you
-  to develop your script for Aegis. To program your scripts you will need to use
-  the LUA language.
----
+# ☎ Contact
 
-# 💡 Introduction
+## Social Network
 
-Welcome to the Aegis software documentation. This documentation will help you to develop your script.
+Discord ID : 1064557131992416386
+
+Telegram : [https://t.me/xf4ll](https://t.me/xf4ll)
+
+If you don't know how to add someone with their discord ID please [click here](https://discord.id/).
+
+
+
+**Aegis has no discord server, maybe a telegram channel will be made in the future.**

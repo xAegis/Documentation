@@ -1,7 +1,6 @@
 # Table of contents
 
-* [💡 Introduction](README.md)
-* [☎ Contact](contact.md)
+* [☎ Contact](README.md)
 
 ## 🤖 Developers
 
