@@ -12,4 +12,4 @@ Basic Patcher
 
 **Disclaimer:** _We have received permission from the owner to crack his product to produce an example._
 
-The code is [here](../aegis-basic.md#lua-files). _(the instruction lines that bypass authentication have been removed for obvious reasons)_
+The code is [here](basic-patcher.md). _(the instruction lines that bypass authentication have been removed for obvious reasons)_
